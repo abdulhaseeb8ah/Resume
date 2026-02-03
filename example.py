@@ -38,7 +38,7 @@ def main() -> None:
     print(translated_output)
 
     # -------------------------------------------------------------------------
-    # Example 2: Verbose Mode with Metadata
+    # Example 2: Verbose Mode with Metadata - Including model info Mock Implementation (e.g: What happens when a problem occurs and how to handle it?)
     # -------------------------------------------------------------------------
     print("\n" + "=" * 60)
     print("VERBOSE MODE (with metadata)")
@@ -54,7 +54,7 @@ def main() -> None:
     print(f" Version: {verbose_result.get('version', 'N/A')}")
 
     # -------------------------------------------------------------------------
-    # Example 3: Edge Case - Empty Input
+    # Example 3: Edge Case - Logic of edge case handling will be done later (e.g what if input is empty?)
     # -------------------------------------------------------------------------
     print("\n" + "=" * 60)
     print("EDGE CASE - Empty Input")

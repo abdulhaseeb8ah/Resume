@@ -1,6 +1,6 @@
 # Job Experience Translator
 
-> A Python-based tool that converts non-traditional work experience into professional, resume-ready language using AI-powered translation.
+A Python-based tool that converts non-traditional work experience into professional, resume-ready language using AI-powered translation.
 
 **Version:** 1.0.0 (Mock Implementation)  
 **Author:** Abdul Haseeb
@@ -25,20 +25,11 @@ This tool takes raw, informal descriptions of work experience and transforms the
 
 ```
 Resume/
-├── prompt.md          # System & user prompts for Claude API
-├── translator.py      # Core translation logic (mocked for testing)
-├── example.py         # Usage demonstration script
-└── README.md          # This documentation file
+├── prompt.md          # Contains the carefully engineered prompts that guide the AI to produce consistent, high-quality output
+├── translator.py      # Main module with `translate_experience()` function; currently returns mock data
+├── example.py         # Runnable demo showing input/output transformation
+└── README.md          # Project documentation and integration guide
 ```
-
-| File | Purpose |
-|------|---------|
-| `prompt.md` | Contains the carefully engineered prompts that guide the AI to produce consistent, high-quality output |
-| `translator.py` | Main module with `translate_experience()` function; currently returns mock data |
-| `example.py` | Runnable demo showing input/output transformation |
-| `README.md` | Project documentation and integration guide |
-
----
 
 ## Quick Start
 
@@ -165,28 +156,3 @@ def translate():
         "translated": result
     })
 ```
-
----
-
-## Requirements Met
-
-| Requirement | Status |
-|-------------|--------|
-| No Flask/Web Server | ✅ Pure Python implementation |
-| No Database | ✅ Stateless function |
-| No Real API Calls | ✅ Mocked response |
-| Type Hints | ✅ Full type annotations |
-| Professional Documentation | ✅ Docstrings + README |
-| Clean Code | ✅ PEP 8 compliant |
-
----
-
-## License
-
-This code is submitted as part of a technical assessment and is intended for evaluation purposes.
-
----
-
-## Contact
-
-For questions about this submission, please contact [Your Email].
